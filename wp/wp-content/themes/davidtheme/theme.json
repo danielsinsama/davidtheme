@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": false,
+		"useRootPaddingAwareAlignments": false,
+		"layout": {
+			"contentSize": "48rem",
+			"wideSize": "80rem"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "teal", "name": "Turquesa", "color": "#14B8A6" },
+				{ "slug": "teal-dark", "name": "Turquesa oscuro", "color": "#0D9488" },
+				{ "slug": "black", "name": "Negro", "color": "#000000" },
+				{ "slug": "white", "name": "Blanco", "color": "#ffffff" },
+				{ "slug": "navy", "name": "Azul noche", "color": "#0F172A" },
+				{ "slug": "gray-50", "name": "Gris 50", "color": "#f9fafb" },
+				{ "slug": "gray-600", "name": "Gris 600", "color": "#4a5565" },
+				{ "slug": "gray-900", "name": "Gris 900", "color": "#101828" }
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "base",
+					"name": "Arial",
+					"fontFamily": "Arial, Helvetica, sans-serif"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#ffffff",
+			"text": "#171717"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--base)",
+			"lineHeight": "1.5"
+		},
+		"elements": {
+			"link": {
+				"color": { "text": "#14B8A6" }
+			}
+		}
+	},
+	"templateParts": [
+		{ "name": "header", "title": "Cabecera", "area": "header" },
+		{ "name": "footer", "title": "Pie de página", "area": "footer" }
+	]
+}
